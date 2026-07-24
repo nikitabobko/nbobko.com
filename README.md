@@ -1,6 +1,6 @@
 # Nikita Bobko @ nbobko.com
 
-Source code for static site bobko.xyz
+Source code for static site nbobko.com
 
 ## How to build
 
