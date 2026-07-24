@@ -10,7 +10,7 @@
 |image:{rootdir}/me.png[120,120]
 .^|
 [big]#Nikita Bobko# +
-[small]#bobko.xyz#
+[small]#nbobko.com#
 |===
 
 [.text-center]

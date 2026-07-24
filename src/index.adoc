@@ -1,4 +1,4 @@
-= Nikita Bobko @ bobko.xyz
+= Nikita Bobko @ nbobko.com
 :notitle:
 :rootdir: .
 include::./header.adoc[]
