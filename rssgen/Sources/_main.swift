@@ -18,7 +18,6 @@ struct Main {
             .description("Nikita Bobko @ nbobko.com"),
             .link(root),
             .atomLink("\(root)/rss.xml"),
-            .lastBuildDate(.now),
             .language(.english),
             .item(
                 .title("https://nbobko.com [RU] Podlodka #466 – Window Managers"),
