@@ -27,7 +27,7 @@ cp -R src/. .build
 cd .build
 bundler exec asciidoctor \
     "${adoc_args[@]}" \
-    ./index.adoc 2>&1 \
+    ./index.adoc ./404.adoc 2>&1 \
     | sed '/level 0 sections can only be used when doctype is book/d'
 bundler exec asciidoctor \
     "${adoc_args[@]}" \
