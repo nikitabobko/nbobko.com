@@ -3,3 +3,5 @@
 /rssgen/.build
 /venv
 .DS_Store
+
+!/.git-crypt
