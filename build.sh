@@ -17,13 +17,13 @@ while test $# -gt 0; do
     esac
 done
 
-mkdir -p .build && rm -rf ./.build/*
+rm -rf .build && mkdir .build
 
 if test $release = 1; then
     ./generate.sh
 fi
 
-cp -r src/* .build
+cp -R src/. .build
 cd .build
 bundler exec asciidoctor \
     "${adoc_args[@]}" \
