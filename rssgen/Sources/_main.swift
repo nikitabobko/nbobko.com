@@ -13,12 +13,18 @@ let root = "https://nbobko.com"
 struct Main {
     static func main() throws {
         // Verificator https://validator.w3.org/feed/
-        let rss = RSS(
+        let rss = RSS.init(
             .title("Nikita Bobko @ nbobko.com"),
             .description("Nikita Bobko @ nbobko.com"),
             .link(root),
             .atomLink("\(root)/rss.xml"),
             .language(.english),
+            .item(
+                .title("https://nbobko.com I am looking for my next role!"),
+                .link("https://nbobko.com/blog/0001-my-next-role"),
+                .guid("1330683f-c2f1-4b4e-aefe-d503b43cc363", .isPermaLink(false)),
+                .pubDate(try Date.init("2026-11-24T17:10:59.657Z", strategy: .iso8601))
+            ),
             .item(
                 .title("https://nbobko.com [RU] Podlodka #466 – Window Managers"),
                 .link("https://podlodka.io/466"),

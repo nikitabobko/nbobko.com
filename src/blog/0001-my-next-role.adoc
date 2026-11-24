@@ -1,0 +1,13 @@
+include::../header.adoc[]
+
+Date: 24 Nov 2026
+
+= I am looking for my next role!
+
+I am a Software Engineer with deep expertise in compilers, concurrency and build tooling. But I am eager to work in other fields (backend, distributed systems).
+
+My previous work is open source: https://github.com/nikitabobko/AeroSpace[AeroSpace], https://github.com/JetBrains/kotlin[Kotlin compiler], https://github.com/Kotlin/KEEP[Kotlin design], and https://github.com/JetBrains/intellij-community/[IntelliJ]
+
+Currently, in Amsterdam. Open to relocation or remote.
+
+My Full CV with email: xref:{rootdir}/cv-nikita-bobko.pdf[PDF]
